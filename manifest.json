@@ -1,17 +1,17 @@
 {
   "name": "xcopy",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "enhance copy!",
   "content_scripts": [ {
 		"js": [ "inject.js" ],
 		"matches": [ "http://*/*", "https://*/*" ],
 		"run_at": "document_start"
 	 } ],
   "icons": {
-    "16": "images/inspire.jpeg",
-    "32": "images/inspire.jpeg",
-    "48": "images/inspire.jpeg",
-    "128": "images/inspire.jpeg"
+    "16": "images/inspire_16.png",
+    "32": "images/inspire_32.png",
+    "48": "images/inspire_48.png",
+    "128": "images/inspire_128.png"
   },
   "manifest_version": 2
 }
