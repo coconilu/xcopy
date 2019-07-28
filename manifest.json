@@ -2,11 +2,13 @@
   "name": "xcopy",
   "version": "1.0",
   "description": "enhance copy!",
-  "content_scripts": [ {
-		"js": [ "inject.js" ],
-		"matches": [ "http://*/*", "https://*/*" ],
-		"run_at": "document_start"
-	 } ],
+  "content_scripts": [
+    {
+      "js": ["inject.js"],
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_start"
+    }
+  ],
   "icons": {
     "16": "images/inspire_16.png",
     "32": "images/inspire_32.png",
