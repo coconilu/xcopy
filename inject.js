@@ -1,7 +1,6 @@
 document.addEventListener(
   "copy",
   e => {
-    console.log("document copy");
     const selection = window.getSelection();
     window.seletedText = selection.baseNode.data.slice(
       selection.baseOffset,
@@ -13,4 +12,4 @@ document.addEventListener(
   true
 );
 
-console.log("注册 document copy");
+console.log("成功注入 xcopy");
